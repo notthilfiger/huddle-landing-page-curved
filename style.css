@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.try-it {
+   align-items: center; 
+}
+
+.try-it button {
+    border-radius: 15px;
+    border: 1px solid pink;
+    padding: 5px 10px;
+    background-color: white;
+    color: pink;
+}
+
+.btc {
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.get-start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-start button {
+    padding: 10px 35px;
+    background-color: rgb(230, 11, 47);
+    color: white;
+    border: 1px solid rgb(230, 11, 47);
+    border-radius: 25px;
+}
+
+.screen-mockups {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.screen-mockups img {
+    width: 60%;
+}
