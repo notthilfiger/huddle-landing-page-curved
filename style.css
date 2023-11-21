@@ -207,6 +207,39 @@ body {
     margin: 0;
 }
 
-.bg-footer-top {
-    /* margin-bottom: 0; */
+.footer {
+    font-size: 10px;
+}
+
+.logo img {
+    color: white;
+}
+
+.subscribe {
+    display: flex;
+    gap: 20px;
+}
+
+.subscribe button {
+    padding: 5px 20px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 5px;
+}
+
+.contact {
+    display: flex;
+    margin: 20px 0;
+    gap: 20px;
+    align-items: center;
+}
+
+.contact img {
+    height: auto;
+}
+.subscribe input {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 30px;
 }
