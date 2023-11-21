@@ -4,9 +4,10 @@
 body {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    /* padding: 20px; */
     /* width: 1440px; */
     font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
 }
 
 .headings {
@@ -130,7 +131,7 @@ body {
     margin-bottom: 50px;
 }
 
-.grow-to-text {
+.text {
     width: 300px;
 }
 
@@ -148,7 +149,11 @@ body {
     color: hsl(192, 100%, 9%);
 }
 
-.convo img {
+.gt.light-blue {
+    background-color: hsl(207, 100%, 98%);
+}
+
+.graphic img {
     width: 350px;
 }
 
@@ -186,4 +191,22 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.svg {
+    width: 100%;
+    display: block;
+}
+
+.bg-curve-top {
+    margin: 0;
+    padding: 0;
+}
+
+.gt.light-blue {
+    margin: 0;
+}
+
+.bg-footer-top {
+    /* margin-bottom: 0; */
 }
