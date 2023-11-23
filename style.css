@@ -18,6 +18,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px 50px;
 }
 
 .try-it {
@@ -123,7 +124,6 @@ body {
 }
 
 .gt {
-    /* background-image: url(images); */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -132,7 +132,7 @@ body {
 }
 
 .text {
-    width: 300px;
+    width: 350px;
 }
 
 .gt h2 {
@@ -235,9 +235,7 @@ body {
     align-items: center;
 }
 
-.contact img {
-    height: auto;
-}
+
 .subscribe input {
     border: 1px solid white;
     border-radius: 5px;
